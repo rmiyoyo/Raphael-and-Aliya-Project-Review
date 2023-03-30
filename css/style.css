@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#title {
+    text-align: center;
+}
+#sub-title {
+    text-align: center;
+}
+#tribute-info {
+    margin: 100px;
+    
+}
+#image-caption {
+    text-align: center;
+}
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Mobile styles */
+body {
+    font-size: 16px;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
